@@ -34,7 +34,7 @@ function classifyBlock(lines) {
 function processReadingView(element) {
 	element.querySelectorAll("p").forEach((p) => {
 		const fragments = p.innerHTML
-			.split(/<br\s*\/?>/i)
+			.split(/<br\s*\/?>|\r?\n/i)
 			.map((line) => line.trim())
 			.filter((line) => line.length > 0);
 

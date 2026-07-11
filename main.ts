@@ -50,9 +50,11 @@ function classifyBlock(lines: string[]): { roles: Role[]; valid: boolean } {
 
 function processReadingView(element: HTMLElement) {
 	element.querySelectorAll("p").forEach((p) => {
-		// Obsidian renders soft line breaks inside a paragraph as <br>.
+		// Obsidian renders soft line breaks inside a paragraph either as a <br>
+		// or as a bare newline in the HTML, depending on the "Strict line breaks"
+		// setting — split on both so reading view works in either mode.
 		const fragments = p.innerHTML
-			.split(/<br\s*\/?>/i)
+			.split(/<br\s*\/?>|\r?\n/i)
 			.map((line) => line.trim())
 			.filter((line) => line.length > 0);
 

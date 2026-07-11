@@ -1,6 +1,6 @@
 {
   "name": "markdown-definition-lists",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds Pandoc-style definition list support to Obsidian's reading view.",
   "main": "main.js",
   "scripts": {
