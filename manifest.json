@@ -1,0 +1,10 @@
+{
+  "id": "markdown-definition-lists",
+  "name": "Definition Lists",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Adds Pandoc-style definition list support to Obsidian's reading view.",
+  "author": "Joe Casabona",
+  "authorUrl": "https://casabona.org",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,23 @@
+/* Reading view */
+.markdown-rendered dl {
+	margin: 0 0 1em 0;
+}
+
+.markdown-rendered dt {
+	font-weight: 600;
+}
+
+.markdown-rendered dd {
+	margin-inline-start: 1.5em;
+	margin-bottom: 0.25em;
+}
+
+/* Live Preview (CodeMirror line decorations) */
+.dl-term {
+	font-weight: 600;
+}
+
+.dl-def,
+.dl-cont {
+	padding-inline-start: 1.5em;
+}
