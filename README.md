@@ -66,4 +66,4 @@ Then enable **Definition Lists** in Settings → Community plugins.
 
 ## License
 
-MIT
+[The Unlicense](LICENSE) — released into the public domain. Do whatever you want with it.

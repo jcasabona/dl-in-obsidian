@@ -9,7 +9,7 @@
   },
   "keywords": ["obsidian", "definition-list", "markdown"],
   "author": "Joe Casabona",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "@codemirror/state": "^6.4.0",
     "@codemirror/view": "^6.24.0",
